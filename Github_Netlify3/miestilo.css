@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 oct. 2021, 11:23:25
+    Author     : isa
+*/
+
+/*
+vamos a crear una caja 
+hemos aplicado un atributo id, para dar estilo a ese atributo  hay que utilizar el selector #*/ 
+#principal{/*que afecta al texto de header*/
+    width: 500px;/* ancho de la caja, */
+    background-color: royalblue;
+    text-align: center;/*el texto al centro del ancho dado*/
+    margin: 15px auto;/*centrar la caja para que el elemento se quede centrado aunque cambie la resolucion de 
+                       pantalla, le doy 15 px de separación por arriba y por abajo y la anchura es auto*/
+    padding: 8px;/*le doy un espacio entre las letras y entre el borde de la caja que contienelas letras
+    al poner un dato se specifica para los 4 lados, si pones dos sería ariba y abajo  un dato y izquierda y derecha otro dato
+    si das 4 datos empieza de arriba y en sentido de agujas de reloj*/
+  border: 3px solid brown;/*añadido un borde de 3px marron solido*/
+  border-radius: 15px; /* redondear las esquinas de un contenedor en este caso el header, si quieres redondear las esquinas de una en una das 4 datos*/
+   box-shadow: cyan 5px  5px 10px;/*crea sombra a la caja parametro vertical y horizibntal*/
+}/*difumiona la sombra el tercer parametro*/
+
+
+#titulo{/*he aplicado el id titulo a span*/
+    font: bold 30px sans-serif;/*negrita 30 de tamaño y tipo de letra */
+    /*creamos sombra a texto*/
+    text-shadow: cyan 5px 5px 10px;
+  
+}
+#listado{
+   width: 500px;/* ancho de la caja, */
+   // text-align: center;/*el texto al centro del ancho dado*/
+    margin: 100px auto;
+        ;/*centrar la caja para que el elemento se quede centrado aunque cambie la resolucion de 
+                    pantalla, le doy 15 px de separación por arriba y por abajo y la anchura es auto*/
+    padding: 8px;
+    border: 3px solid brown; 
+//text-align: center;/*el texto al centro del ancho dado*/
+    
+}
+
+
+
+li[name="licolor"]{
+    color:#FF3391;
+ 
+    
+   
+}
+
+li[name="licolor1"]{
+    color:#33BBFF;
+}
